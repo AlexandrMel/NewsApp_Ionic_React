@@ -10,7 +10,7 @@ import {
   IonTabs
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, triangle, bookOutline, starOutline } from 'ionicons/icons';
+import { ellipse, square, triangle, bookOutline, starOutline, gitCompareOutline } from 'ionicons/icons';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
@@ -47,11 +47,11 @@ const App: React.FC = () => (
         <IonTabBar color="tertiary" slot="bottom">
           <IonTabButton tab="tab1" href="/tab1">
             <IonIcon icon={bookOutline} />
-            <IonLabel>Toate Stirile</IonLabel>
+            <IonLabel>Toate stirile</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon icon={starOutline} />
-            <IonLabel>Stirile Preferate</IonLabel>
+            <IonIcon icon={gitCompareOutline} />
+            <IonLabel>Compara sursele</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

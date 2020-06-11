@@ -1,0 +1,14 @@
+.categoriesSegment{
+    height: 40px;
+}
+.mainSegment{
+    height: 40px;
+}
+.mainSegment ion-icon {
+ margin: 0;
+ margin-bottom: 5px;
+}
+.SliderContent {
+    background: rgba(177, 154, 241, 0.1);
+
+}
